@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Link from "next/link";
+import { Inter } from 'next/font/google'
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -23,11 +25,29 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
+   <html lang="sr">
+      <body >
+        <nav className="bg-blue-600 text-white p-4 shadow-lg">
+          <div className="container mx-auto flex justify-between items-center">
+            <Link href="/" className="text-2xl font-bold">
+              📚 Matematika
+            </Link>
+            <div className="flex gap-6">
+              <Link href="/razredi/peti" className="hover:text-blue-200">5. razred</Link>
+              <Link href="/razredi/sesti" className="hover:text-blue-200">6. razred</Link>
+              <Link href="/razredi/sedmi" className="hover:text-blue-200">7. razred</Link>
+              <Link href="/razredi/osmi" className="hover:text-blue-200">8. razred</Link>
+            </div>
+          </div>
+        </nav>
+        <main className="container mx-auto p-6 min-h-screen">
+          {children}
+        </main>
+        <footer className="bg-gray-800 text-white p-6 mt-12">
+          <div className="container mx-auto text-center">
+            <p>© 2026 Matematika Blog - Interaktivne lekcije za osnovnu školu</p>
+          </div>
+        </footer>
       </body>
     </html>
   );

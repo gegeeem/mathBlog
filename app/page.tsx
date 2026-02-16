@@ -29,10 +29,17 @@ export default function Home() {
     },
   ]
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <div className="grid md:grid-cols-2 gap-6 mb-12">
+    <div>
+      <div className="text-center mb-12">
+        <h1 className="text-5xl font-bold mb-4 text-blue-700">
+          Matematika za osnovnu školu
+        </h1>
+        <p className="text-xl text-gray-600">
+          Interaktivne lekcije sa primerima i vežbama
+        </p>
+      </div>
 
+      <div className="grid md:grid-cols-2 gap-6 mb-12">
         {razredi.map((razred) => (
           <Link
             key={razred.broj}
@@ -43,8 +50,31 @@ export default function Home() {
             <p className="text-lg">{razred.opis}</p>
           </Link>
         ))}
-        </div>
-      </main>
+      </div>
+
+      <div className="bg-white p-8 rounded-lg shadow-md">
+        <h2 className="text-3xl font-bold mb-4 text-gray-800">
+          Zašto koristiti ovaj blog?
+        </h2>
+        <ul className="space-y-3 text-lg">
+          <li className="flex items-start">
+            <span className="text-2xl mr-3">✅</span>
+            <span>Jasna i jednostavna objašnjenja matematičkih pojmova</span>
+          </li>
+          <li className="flex items-start">
+            <span className="text-2xl mr-3">🎯</span>
+            <span>Praktični primeri iz svakodnevnog života</span>
+          </li>
+          <li className="flex items-start">
+            <span className="text-2xl mr-3">🎮</span>
+            <span>Interaktivne vežbe za uvežbavanje gradiva</span>
+          </li>
+          <li className="flex items-start">
+            <span className="text-2xl mr-3">📊</span>
+            <span>Vizuelizacije koje pomažu u razumevanju</span>
+          </li>
+        </ul>
+      </div>
     </div>
   );
 }
