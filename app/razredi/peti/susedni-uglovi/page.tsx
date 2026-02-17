@@ -36,6 +36,16 @@ export default function SusedniUglovi() {
   ]
 
   return (
-    <div className="max-w-4xl mx-auto"></div>
+    <div className="max-w-4xl mx-auto">
+      <h1 className="text-4xl font-bold mb-6 text-blue-700">Sabiranje i oduzimanje</h1>
+      
+      <div className="lesson-content">
+        <h2>Sabiranje prirodnih brojeva</h2>
+        <p>
+          Sabiranje je osnovna matematička operacija kojom spajamo dva ili više brojeva u jedan zbir. 
+          Brojeve koje sabiramo nazivamo <strong>sabirci</strong>, a rezultat nazivamo <strong>zbir</strong>.
+        </p>
+      </div>
+      </div>
     )
 }
