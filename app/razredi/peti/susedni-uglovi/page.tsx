@@ -19,15 +19,16 @@ export default function SusedniUglovi() {
           oduzimaju.
         </p>
       </div>
-      <div className="exercise">
+      <div className="lesson-content">
         <iframe
-          src="https://www.geogebra.org/classic/khnjksjp?embed"
-          width={800}
-          height={600}
-          allowFullScreen
-          style={{ border: "1px solid #e4e4e4", borderRadius: "4px" }}
-          frameBorder={0}
-        ></iframe>
+          scrolling="no"
+          title="Graph the Line"
+          src="https://www.geogebra.org/material/iframe/id/bkj45nvs/width/631/height/400/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/true/rc/false/ld/false/sdz/true/ctl/false"
+          width="631"
+          height="400"
+        >
+          {" "}
+        </iframe>
       </div>
     </div>
   );

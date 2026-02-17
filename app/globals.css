@@ -10,6 +10,8 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
+    --bckgrndmobile: #2c2c2c;
+    --textformobile: #ededed;
     --foreground: #ededed;
     margin: 2px;
   }
@@ -19,6 +21,10 @@
     box-sizing: border-box;
     margin: 1;
     padding: 1;
+  }
+  body{
+    background: var(--bckgrndmobile);
+    color: var(--textformobile);
   }
   .meni {
     display: none;
