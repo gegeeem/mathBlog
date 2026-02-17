@@ -32,7 +32,7 @@ export default function RootLayout({
             <Link href="/" className="text-2xl font-bold">
               📚 Matematika
             </Link>
-            <div className="flex gap-6">
+            <div className="meni flex gap-6">
               <Link href="/razredi/peti" className="hover:text-blue-200">5. razred</Link>
               <Link href="/razredi/sesti" className="hover:text-blue-200">6. razred</Link>
               <Link href="/razredi/sedmi" className="hover:text-blue-200">7. razred</Link>
