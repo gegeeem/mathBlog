@@ -3,6 +3,11 @@ import Link from 'next/link'
 export default function PetiRazred() {
   const lekcije = [
     {
+      slug: 'sus',
+      naslov: 'Suplementni i komplementni uglovi',
+      opis: 'Šta su suplementni i komplementni uglovi, kako se izračunavaju',
+    },
+    {
       slug: 'susedni-uglovi',
       naslov: 'Susedni uglovi',
       opis: 'zbir i razlika susednih uglova, prav ugao, pravi ugao, pun ugao',
