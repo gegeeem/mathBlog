@@ -1,20 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Fredericka+the+Great&display=swap');
 
-:root {
-  --bg: #0f1b2d;
-  --card: #162236;
-  --card2: #1c2d45;
-  --accent: #f5a623;
-  --accent2: #50e3c2;
-  --accent3: #e74c7a;
-  --accent4: #7d5fff;
-  --text: #e8edf2;
-  --text-dim: #8a9bb0;
-  --green: #2ecc71;
-  --red: #e74c3c;
-  --radius: 18px;
-}
+
+ 
+
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -127,7 +116,7 @@
 }
 .card p {
   line-height: 1.7;
-  color: var(--text);
+  color: var(--textSus);
   font-size: 0.97rem;
 }
 
@@ -217,7 +206,7 @@
 }
 .btn:hover { transform: scale(1.05); box-shadow: 0 4px 18px rgba(125,95,255,0.4); }
 .btn:active { transform: scale(0.97); }
-.btn.secondary { background: var(--card2); color: var(--text); border: 1px solid rgba(255,255,255,0.15); }
+.btn.secondary { background: var(--card2); color: var(--textSus); border: 1px solid rgba(255,255,255,0.15); }
 .btn.secondary:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.3); }
 
 /* quiz */
@@ -227,7 +216,7 @@
   padding: 20px;
   margin: 16px 0;
 }
-.quiz-q .qtext { font-weight: 700; font-size: 1rem; margin-bottom: 14px; color: var(--text); }
+.quiz-q .qtext { font-weight: 700; font-size: 1rem; margin-bottom: 14px; color: var(--textSus); }
 .quiz-q .options { display: flex; flex-direction: column; gap: 8px; }
 .quiz-q .opt {
   background: rgba(255,255,255,0.04);
@@ -237,7 +226,7 @@
   cursor: pointer;
   transition: background 0.2s, border-color 0.2s;
   font-size: 0.92rem;
-  color: var(--text);
+  color: var(--textSus);
 }
 .quiz-q .opt:hover { background: rgba(255,255,255,0.08); border-color: rgba(255,255,255,0.25); }
 .quiz-q .opt.correct { background: rgba(46,204,113,0.15); border-color: var(--green); color: var(--green); }
