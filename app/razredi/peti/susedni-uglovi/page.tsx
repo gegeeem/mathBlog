@@ -2,7 +2,7 @@
 
 import Math from '@/components/Math'
 import InteractiveExercise from '@/components/InteractiveExercise'
-import './susedni.css'
+
 
 export default function SusedniUglovi() {
   const questions = [
