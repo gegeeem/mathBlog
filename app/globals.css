@@ -5,18 +5,7 @@
    --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
-   --bg: #0f1b2d;
-  --card: #162236;
-  --card2: #1c2d45;
-  --accent: #f5a623;
-  --accent2: #50e3c2;
-  --accent3: #e74c7a;
-  --accent4: #7d5fff;
-  --textSus: #e8edf2;
-  --text-dim: #8a9bb0;
-  --green: #2ecc71;
-  --red: #e74c3c;
-  --radius: 18px;
+  
 }
 
 @media (prefers-color-scheme: dark) {
