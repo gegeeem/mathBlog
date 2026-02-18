@@ -634,8 +634,8 @@ export default function SuplementniKomplementniUglovi() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-[#667eea] to-[#764ba2] p-1 sm:p-5">
-      <div className="max-w-full sm:max-w-[95%] lg:max-w-7xl mx-auto bg-white rounded-lg sm:rounded-xl p-4 sm:p-8 lg:p-10 shadow-2xl">
+    <div id='susedniUglovi' className=" min-h-screen bg-gradient-to-br from-[#667eea] to-[#764ba2] p-1 sm:p-1">
+      <div className="max-w-full sm:max-w-[95%] lg:max-w-7xl mx-auto bg-white rounded-lg sm:rounded-xl p-1 sm:p-8 lg:p-10 shadow-2xl">
         
         {/* Naslov */}
         <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-center text-[#667eea] mb-6 sm:mb-8 px-2 drop-shadow-md">
@@ -654,7 +654,7 @@ export default function SuplementniKomplementniUglovi() {
         </section>
 
         {/* Komplementni uglovi */}
-        <section className="mb-8 sm:mb-10 p-4 sm:p-6 bg-[#f8f9ff] rounded-2xl border-2 border-[#e0e7ff]">
+        <section className="mb-8 sm:mb-10 p-1 sm:p-3 bg-[#f8f9ff] rounded-2xl border-2 border-[#e0e7ff]">
           <h2 className="text-2xl sm:text-3xl font-bold text-[#764ba2] mb-4 border-l-4 border-[#667eea] pl-4">
             🔵 Komplementni Uglovi
           </h2>
@@ -709,7 +709,7 @@ export default function SuplementniKomplementniUglovi() {
         </section>
 
         {/* Suplementni uglovi */}
-        <section className="mb-8 sm:mb-10 p-4 sm:p-6 bg-[#f8f9ff] rounded-2xl border-2 border-[#e0e7ff]">
+        <section className="mb-8 sm:mb-10 p-1 sm:p-6 bg-[#f8f9ff] rounded-2xl border-2 border-[#e0e7ff]">
           <h2 className="text-2xl sm:text-3xl font-bold text-[#764ba2] mb-4 border-l-4 border-[#667eea] pl-4">
             🔴 Suplementni Uglovi
           </h2>
@@ -784,13 +784,13 @@ export default function SuplementniKomplementniUglovi() {
         </section>
 
         {/* Kviz */}
-        <section className="mt-10 sm:mt-12 p-5 sm:p-8 bg-gradient-to-br from-[#ffeaa7] to-[#fdcb6e] rounded-2xl">
+        <section className="mt-10 sm:mt-12 p-1 sm:p-8 bg-gradient-to-br from-[#ffeaa7] to-[#fdcb6e] rounded-2xl">
           <h2 className="text-2xl sm:text-3xl font-bold text-center text-[#2d3436] mb-6 sm:mb-8">
             📝 PROVERI SVOJE ZNANJE - KVIZ
           </h2>
 
           {/* Pitanje 1 */}
-          <div className="bg-white p-5 sm:p-6 rounded-xl shadow-lg mb-6">
+          <div className="bg-white p-1 sm:p-6 rounded-xl shadow-lg mb-6">
             <h3 className="text-lg sm:text-xl font-bold text-[#2d3436] mb-4">
               Pitanje 1: Dva ugla od 45° i 45° su:
             </h3>
@@ -833,7 +833,7 @@ export default function SuplementniKomplementniUglovi() {
           </div>
 
           {/* Pitanje 2 */}
-          <div className="bg-white p-5 sm:p-6 rounded-xl shadow-lg mb-6">
+          <div className="bg-white p-1 sm:p-6 rounded-xl shadow-lg mb-6">
             <h3 className="text-lg sm:text-xl font-bold text-[#2d3436] mb-4">
               Pitanje 2: Ako je jedan ugao 130°, koliki je njegov suplementni ugao?
             </h3>
@@ -876,7 +876,7 @@ export default function SuplementniKomplementniUglovi() {
           </div>
 
           {/* Pitanje 3 */}
-          <div className="bg-white p-5 sm:p-6 rounded-xl shadow-lg mb-6">
+          <div className="bg-white p-1 sm:p-6 rounded-xl shadow-lg mb-6">
             <h3 className="text-lg sm:text-xl font-bold text-[#2d3436] mb-4">
               Pitanje 3: Koliki je komplementni ugao za ugao od 35°?
             </h3>
@@ -919,7 +919,7 @@ export default function SuplementniKomplementniUglovi() {
           </div>
 
           {/* Pitanje 4 */}
-          <div className="bg-white p-5 sm:p-6 rounded-xl shadow-lg mb-6">
+          <div className="bg-white p-1 sm:p-6 rounded-xl shadow-lg mb-6">
             <h3 className="text-lg sm:text-xl font-bold text-[#2d3436] mb-4">
               Pitanje 4: Uglovi od 120° i 60° su:
             </h3>
@@ -962,7 +962,7 @@ export default function SuplementniKomplementniUglovi() {
           </div>
 
           {/* Pitanje 5 */}
-          <div className="bg-white p-5 sm:p-6 rounded-xl shadow-lg mb-6">
+          <div className="bg-white p-1 sm:p-6 rounded-xl shadow-lg mb-6">
             <h3 className="text-lg sm:text-xl font-bold text-[#2d3436] mb-4">
               Pitanje 5: Koliki je zbir komplementnih uglova?
             </h3>

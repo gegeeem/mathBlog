@@ -1,9 +1,9 @@
 @media screen and (max-width: 768px) {
-  *{
-    box-sizing: border-box;
-    margin: 0px;
-    padding-left: 2px;
-    padding-right: 2px;
+  #susedniUglovi{
+    margin-left: 1px;
+    margin-right: 1px;
+    padding-left: 1px;
+    padding-right: 1px;
   }
     
 }
