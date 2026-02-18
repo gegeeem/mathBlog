@@ -39,7 +39,7 @@ export default function Home() {
         </p>
       </div>
 
-      <div className="grid md:grid-cols-2 gap-6 mb-12">
+      <div className="schoolClassCards grid md:grid-cols-2 gap-6 mb-12">
         {razredi.map((razred) => (
           <Link
             key={razred.broj}

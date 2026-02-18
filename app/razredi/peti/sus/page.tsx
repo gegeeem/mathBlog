@@ -1,4 +1,5 @@
 'use client';
+import './style.css';
 import { useState, useRef, useEffect } from 'react';
 export default function SuplementniKomplementniUglovi() {
   const [answers, setAnswers] = useState<{ [key: string]: string }>({});
