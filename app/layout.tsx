@@ -40,10 +40,10 @@ export default function RootLayout({
             </div>
           </div>
         </nav>
-        <main className="container mx-auto p-6 min-h-screen">
+        <main className="container mx-auto p-3 min-h-screen">
           {children}
         </main>
-        <footer className="bg-gray-800 text-white p-6 mt-12">
+        <footer className="bg-gray-800 text-white p-3 mt-12">
           <div className="container mx-auto text-center">
             <p>© 2026 Matematika Blog - Interaktivne lekcije za osnovnu školu</p>
           </div>
